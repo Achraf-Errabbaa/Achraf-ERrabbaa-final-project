@@ -11848,6 +11848,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .carousel-caption {
   display: flex;
   justify-content: center;
@@ -11909,6 +11910,8 @@ textarea.form-control-lg {
   font-family: satist;
 }
 
+=======
+>>>>>>> lwasakh
 .our-resturant {
   text-align: center;
   padding: 40px;
@@ -11998,6 +12001,9 @@ textarea.form-control-lg {
   padding-bottom: 10px;
 }
 
+.carousel-inner {
+  padding-top: 40px;
+}
 .carousel-inner h2, .carousel-inner .h2 {
   text-align: center;
   font-family: satist;
@@ -12012,6 +12018,44 @@ textarea.form-control-lg {
   background-attachment: fixed;
   height: 600px;
   padding-top: 70px;
+}
+
+.book-table {
+  padding-top: 60px;
+  text-align: center;
+}
+.book-table h2, .book-table .h2 {
+  font-family: satist;
+}
+.book-table p {
+  font-size: 17px;
+}
+.book-table span {
+  color: #ffb03b;
+}
+
+.info-box {
+  border: 1px solid black;
+  width: 80%;
+  padding-left: auto;
+  padding-right: 40px;
+  display: flex;
+}
+.info-box .inside-info-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.info-box input {
+  width: 20vw;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -12060,6 +12104,92 @@ nav .links select {
   color: white;
   background: none;
   border-style: none;
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40vh;
+  text-align: center;
+}
+.carousel-caption h1, .carousel-caption .h1 {
+  color: white;
+  font-family: satist;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 5px;
+  font-size: 40px;
+}
+.carousel-caption .two-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+.carousel-caption .two-btn button {
+  border: 1px solid #ffa012;
+  border-radius: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 6px;
+  width: 8vw;
+}
+.carousel-caption .two-btn button:hover {
+  background: #ffb03b;
+}
+
+.parent {
+  background: #fffaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent p {
+  color: #848484;
+}
+.parent .discreption {
+  padding: 100px;
+}
+.parent .discreption ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.parent .discreption ul i {
+  color: #ffb03b;
+}
+.parent h1, .parent .h1 {
+  font-family: satist;
+}
+
+.intro-somephotos {
+  text-align: center;
+}
+.intro-somephotos h2, .intro-somephotos .h2 {
+  font-family: satist;
+}
+.intro-somephotos span {
+  color: #ffb03b;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 30px;
+}
+.photos img {
+  width: 360px;
+}
+.photos img:hover {
+  scale: 1.3;
+  transition: 0.3s;
+}
+.photos .imgs {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=app.css.map */

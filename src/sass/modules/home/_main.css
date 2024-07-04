@@ -30,8 +30,6 @@
   color: white;
   padding: 6px;
   width: 8vw;
-  padding: 6px;
-  width: 8vw;
 }
 
 .carousel-caption .two-btn button:hover {
@@ -168,6 +166,10 @@
 .inside-slider ul li {
   list-style: none;
   padding-bottom: 10px;
+}
+
+.carousel-inner {
+  padding-top: 40px;
 }
 
 .carousel-inner h2 {
