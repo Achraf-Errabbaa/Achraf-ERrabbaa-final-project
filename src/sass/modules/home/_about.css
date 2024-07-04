@@ -1,0 +1,29 @@
+.parent {
+  background: #fffaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent p {
+  color: #848484;
+}
+
+.parent .discreption {
+  padding: 100px;
+}
+
+.parent .discreption ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.parent .discreption ul i {
+  color: #ffb03b;
+}
+
+.parent h1 {
+  font-family: satist;
+}
