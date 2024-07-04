@@ -42,3 +42,13 @@ nav .links button {
   color: white;
   border: none;
 }
+
+nav .links label {
+  color: white;
+}
+
+nav .links select {
+  color: white;
+  background: none;
+  border-style: none;
+}
