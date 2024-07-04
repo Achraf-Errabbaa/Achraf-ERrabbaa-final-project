@@ -11848,7 +11848,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-<<<<<<< HEAD
 .carousel-caption {
   display: flex;
   justify-content: center;
@@ -11876,8 +11875,6 @@ textarea.form-control-lg {
   border-radius: 80px;
   background: rgba(0, 0, 0, 0.3);
   color: white;
-  padding: 10px;
-  width: 8vw;
   padding: 6px;
   width: 8vw;
 }
@@ -11910,8 +11907,6 @@ textarea.form-control-lg {
   font-family: satist;
 }
 
-=======
->>>>>>> lwasakh
 .our-resturant {
   text-align: center;
   padding: 40px;
@@ -12018,39 +12013,6 @@ textarea.form-control-lg {
   background-attachment: fixed;
   height: 600px;
   padding-top: 70px;
-}
-
-.book-table {
-  padding-top: 60px;
-  text-align: center;
-}
-.book-table h2, .book-table .h2 {
-  font-family: satist;
-}
-.book-table p {
-  font-size: 17px;
-}
-.book-table span {
-  color: #ffb03b;
-}
-
-.info-box {
-  border: 1px solid black;
-  width: 80%;
-  padding-left: auto;
-  padding-right: 40px;
-  display: flex;
-}
-.info-box .inside-info-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-.info-box input {
-  width: 20vw;
-  padding: 10px;
 }
 
 body {
