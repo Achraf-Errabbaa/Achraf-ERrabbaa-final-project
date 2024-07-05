@@ -1,0 +1,103 @@
+.contact-text {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.contact-text span {
+  color: #ffb03b;
+}
+
+.contact-text h2 {
+  font-family: satist;
+}
+
+.map {
+  padding-bottom: 50px;
+}
+
+.all-contact-element {
+  display: flex;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: start;
+  gap: 100px;
+  box-sizing: border-box;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.all-contact-element .contact-element {
+  display: flex;
+  text-align: center;
+}
+
+.all-contact-element .contact-element i {
+  padding: 10px;
+  font-size: 20px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.all-contact-element .contact-element .text-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-forms {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.under-forms {
+  display: flex;
+  gap: 0px;
+}
+
+.under-forms input {
+  width: 40vw;
+  padding: 10px;
+}
+
+.under-subject input {
+  width: 80vw;
+  display: flex;
+  padding: 10px;
+}
+
+.msgbox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-msg {
+  border: 1px solid black;
+  border-radius: 40px;
+  border: none;
+  padding: 10px;
+  width: 12vw;
+  background: #ffb30b;
+  color: white;
+  font-size: 15px;
+  font-weight: 50px;
+}
+
+.send-msg-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
