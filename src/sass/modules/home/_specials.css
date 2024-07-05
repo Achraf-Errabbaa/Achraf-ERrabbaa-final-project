@@ -1,0 +1,48 @@
+.specials-tittle {
+  text-align: center;
+}
+
+.specials-tittle p {
+  width: 70%;
+  padding-left: 450px;
+}
+
+.specials-tittle h2 {
+  font-family: satist;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.specials-tittle span {
+  color: #ffb03b;
+}
+
+.nav-pills button {
+  text-align: start;
+  width: 20vw;
+  padding-top: 20px;
+  background: white;
+  border: none;
+}
+
+.nav-pills button:focus {
+  color: #ffb30b;
+}
+
+.tab-pane {
+  display: flex;
+  padding: 40px;
+}
+
+.tab-pane h3 {
+  font-family: satist;
+  font-size: 26px;
+  font-weight: 600;
+  color: #433f39;
+}
+
+.tab-pane p {
+  text-align: start;
+  width: 90%;
+  color: #777777;
+}

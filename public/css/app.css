@@ -12015,9 +12015,8 @@ textarea.form-control-lg {
   padding-top: 70px;
 }
 
-<<<<<<< HEAD
-=======
 .book-table {
+  text-align: center;
   padding-top: 60px;
   text-align: center;
 }
@@ -12032,11 +12031,8 @@ textarea.form-control-lg {
 }
 
 .info-box {
-  border: 1px solid black;
-  width: 80%;
-  padding-left: auto;
-  padding-right: 40px;
-  display: flex;
+  width: 100%;
+  padding-left: 200px;
 }
 .info-box .inside-info-box {
   display: flex;
@@ -12046,8 +12042,17 @@ textarea.form-control-lg {
   gap: 40px;
 }
 .info-box input {
-  width: 20vw;
+  width: 30vw;
   padding: 10px;
+}
+
+.info-box-border {
+  border: 1px solid black;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 .workers {
@@ -12086,7 +12091,6 @@ textarea.form-control-lg {
   font-size: 36px;
 }
 
->>>>>>> lwasakh
 body {
   margin: 0;
   padding: 0;
@@ -12199,6 +12203,48 @@ nav .links select {
   font-family: satist;
 }
 
+.specials-tittle {
+  text-align: center;
+}
+.specials-tittle p {
+  width: 70%;
+  padding-left: 450px;
+}
+.specials-tittle h2, .specials-tittle .h2 {
+  font-family: satist;
+  font-size: 26px;
+  font-weight: 600;
+}
+.specials-tittle span {
+  color: #ffb03b;
+}
+
+.nav-pills button {
+  text-align: start;
+  width: 20vw;
+  padding-top: 20px;
+  background: white;
+  border: none;
+}
+.nav-pills button:focus {
+  color: #ffb30b;
+}
+
+.tab-pane {
+  display: flex;
+  padding: 40px;
+}
+.tab-pane h3, .tab-pane .h3 {
+  font-family: satist;
+  font-size: 26px;
+  font-weight: 600;
+  color: #433f39;
+}
+.tab-pane p {
+  text-align: start;
+  width: 90%;
+  color: #777777;
+}
 .intro-somephotos {
   text-align: center;
 }
@@ -12354,6 +12400,41 @@ footer .social-media i {
 footer .credits a {
   color: #ffb03b;
   text-decoration: none;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.menu button {
+  border: 2px solid #ffb03b;
+  border-radius: 80px;
+  padding: 2px;
+  width: 100px;
+  text-align: center;
+}
+.menu button:focus {
+  background: #ffb30b;
+  color: white;
+}
+.menu button:hover {
+  background: #ffb30b;
+  color: white;
+}
+
+.all-menu {
+  display: flex;
+  gap: 70px;
+}
+
+.menu-options h5, .menu-options .h5 {
+  font-size: 18px;
+  color: #ffb03b;
+}
+.menu-options h5 span, .menu-options .h5 span {
+  color: black;
 }
 
 /*# sourceMappingURL=app.css.map */
